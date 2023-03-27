@@ -7,7 +7,7 @@
 
 .row {
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     flex-wrap: wrap;
     height: 40px;
 }
@@ -17,4 +17,5 @@
     text-align: center;
     background-color: #006cfa;
 }
+
 
