@@ -1,3 +1,20 @@
-body {
-    background-color: aqua;
+
+.container {
+    max-width: 1200px;
+    margin: 10px auto;
+    
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 40px;
+}
+
+[class*="col-"] {
+    border: 1px solid white;
+    text-align: center;
+    background-color: #006cfa;
+}
+
